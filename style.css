@@ -1,0 +1,82 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: 30%;
+    min-width: 500px;
+    display: block;
+    margin-top : 3em;
+    margin-bottom: 1fr;
+}
+
+header{
+    background-color: gold;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main span{
+    font-family: 'Arial', sans-serif;
+    padding-right: 1em;
+}
+
+#rand{
+    border-radius: 1em;
+    padding: 1em;
+    max-width: 600px;
+    border-style: solid;
+    border-color: black ;
+}
+button{
+    background-color: gold;
+    text-align: center;
+    border-style: solid;
+    padding: 0.5em;
+    border-radius: 1em;
+    border-color: gold;
+    padding: 10px;
+    color: black;
+    display: inline;
+}
+
+ footer{
+    background-color: gold;
+    padding: 0.25em;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+#confetti-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 999; }
+
+/**
+* tracking code: Q7X9-TRK8
+**/
